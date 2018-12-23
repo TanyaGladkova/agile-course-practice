@@ -1,0 +1,6 @@
+apply from: rootDir.getAbsolutePath() + '/config/scripts/javafx.plugin'
+
+dependencies {
+    compile project(':segments2d-intersection-ViewModel')
+    compile project(':segments2d-intersection-Infrastructure')
+}

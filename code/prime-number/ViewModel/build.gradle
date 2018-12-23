@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':prime-number-Model')
+    compile project(':prime-number-Infrastructure')
+}
